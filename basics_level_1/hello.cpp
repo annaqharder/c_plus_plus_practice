@@ -30,7 +30,10 @@ int main()
 
     // string
     std::string user_name = "Bob";
-
+    
+    // constant variable w/ "const" keyword --> variable cannot be changed
+    const int seconds_per_hour = 3600;
+    const double max_allowed_temp = 76.8;
 
     std::cout << user_age << std::endl;
     std::cout << temperature << std::endl;
