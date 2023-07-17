@@ -12,6 +12,5 @@ int main()
 
     std::cout << "Hello " << user_name << ", you are " << user_age << "." << std::endl;
 
-
     return 0;
 }
